@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+    padding: 5px;
+    background-color:#9087F6;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Space Mono', monospace;
+    font-size: 14pt;
+    
+}
+
+.button a
+    {display: inline-flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-inline: 50px;
+    width: 200px;height:50 px;
+    margin-bottom:50px; 
+    border-radius: 25px;
+    background-color: #FFDE8B;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: normal!important;
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    font-size: 15pt;
+    color: #000;
+    -webkit-touch-callout: none;-webkit-user-select: none;-ms-user-select: none;user-select: none;
+    }
+
+.buttons-center {
+    display: flex;
+    justify-content: center;
+    @media only screen and (min-width: 1080px) @media only screen and (max-width: 760px)
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -5px;
+    background-color:#FFFFFF ;
+}
+
+.title {
+    font-family: 'Space Mono', monospace;
+    font-size: 25pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.description {
+    font-family: 'Space Mono', monospace;
+    font-size: 12pt;
+    text-align: left;
+}
+
+.caption {
+    font-family: 'Space Mono', monospace;
+    font-size: 12pt;
+    text-align: center;
+    background-color: #FF7CB8;
+    height: 50px;
+    padding: 10px;
+}
+
+.assignments {
+    font-family: 'Space Mono', monospace;
+    font-size: 16pt;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    background-color: #FF7CB8;
+}
+
+h1 {
+    font-family: 'Meow Script', cursive;
+    font-size: 50pt;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black ;
+    margin-inline: 50px;
+    margin-left: -10px;
+    font-weight: bold;
+}
+
+svg {
+    width: 10%;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    @media only screen and (min-width: 1080px) @media only screen and (max-width: 760px)
+    font-family: 'Space Mono', monospace;
+    font-size: 12pt;
+    text-align: center;
+    background-color: #82D4FF;
+    height: 50px;
+    padding: 50px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -10px;
+}
